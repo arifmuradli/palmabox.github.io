@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Bookmarks</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 1.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      width: 100%;
+      max-width: 800px;
+    }
+    a {
+      text-decoration: none;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    }
+    .card h2 {
+      margin: 0 0 8px 0;
+      font-size: 1.1rem;
+      color: #0078d7;
+    }
+    .card p {
+      color: #555;
+      font-size: 0.9rem;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Downloads</h1>
+  <div class="grid">
+    <a href="https://1drv.ms/u/s!AjD6dWCiEYH5hqBfCWwRYukfWzZikg?e=8PNJXf" target="_blank">
+      <div class="card">
+        <h2>Palmabox Posaz</h2>
+        <p>.</p>
+      </div>
+    </a>
+    <a href="https://1drv.ms/u/s!AjD6dWCiEYH5hqBejMp4L6wo4McLVw?e=RxTufc" target="_blank">
+      <div class="card">
+        <h2>Palmabox official 36</h2>
+        <p>.</p>
+      </div>
+    </a>
+    <a href="https://1drv.ms/f/c/f98111a26075fa30/EgZzRa2f8NlHu1K8daGfFfgBCFqU7hJ0hjikokIZnv5w3Q?e=vrZhfw" target="_blank">
+      <div class="card">
+        <h2>APK</h2>
+        <p>Anydesk and others</p>
+      </div>
+    </a>
+    <a href="https://mail.google.com" target="_blank">
+      <div class="card">
+        <h2>Gmail</h2>
+        <p>Check my inbox</p>
+      </div>
+    </a>
+    <a href="https://www.reddit.com" target="_blank">
+      <div class="card">
+        <h2>Reddit</h2>
+        <p>Communities & interests</p>
+      </div>
+    </a>
+    <a href="https://www.youtube.com" target="_blank">
+      <div class="card">
+        <h2>YouTube</h2>
+        <p>Videos & learning</p>
+      </div>
+    </a>
+  </div>
+</body>
+</html>
